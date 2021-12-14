@@ -129,7 +129,8 @@
 		<figcaption class="figure-caption">The complete JSON object used to define this content and layout of this page.</figcaption>
 	</figure>		<h3>Extra extension file</h3>
 	<figure>
-		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://manifests.collections.yale.edu/ycba/obj/34
+		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://media.ng-london.org.uk/iiif/examples/00C-022B-0000
+https://manifests.collections.yale.edu/ycba/obj/34
 https://iiif.harvardartmuseums.org/manifests/object/299843
 https://media.nga.gov/public/manifests/nga_highlights.json
 </code></pre>
@@ -169,13 +170,14 @@ https://media.nga.gov/public/manifests/nga_highlights.json
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
        windows: [{
-					"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"
+					"manifestId": "https://media.ng-london.org.uk/iiif/examples/00C-022B-0000"
 					}],
        manifests: {
+"https:\/\/media.ng-london.org.uk\/iiif\/examples\/00C-022B-0000":{"provider":"Undefined"},
 "https:\/\/manifests.collections.yale.edu\/ycba\/obj\/34":{"provider":"Undefined"},
 "https:\/\/iiif.harvardartmuseums.org\/manifests\/object\/299843":{"provider":"Undefined"},
 "https:\/\/media.nga.gov\/public\/manifests\/nga_highlights.json":{"provider":"Undefined"},},
-       "catalog": [{"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"}, {"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843"}, {"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json"}],
+       "catalog": [{"manifestId": "https://media.ng-london.org.uk/iiif/examples/00C-022B-0000"}, {"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"}, {"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843"}, {"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json"}],
        
        });     
      });
