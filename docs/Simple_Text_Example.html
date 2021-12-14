@@ -129,7 +129,8 @@
 		<figcaption class="figure-caption">The complete JSON object used to define this content and layout of this page.</figcaption>
 	</figure>		<h3>Extra extension file</h3>
 	<figure>
-		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://manifests.collections.yale.edu/ycba/obj/34
+		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://data.ng-london.org.uk/0FNR-0001-0000-0000.iiif
+https://manifests.collections.yale.edu/ycba/obj/34
 https://iiif.harvardartmuseums.org/manifests/object/299843
 https://media.nga.gov/public/manifests/nga_highlights.json
 https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mc/53/t1mc534fp00h/manifest
@@ -170,14 +171,15 @@ https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mc/53/t1mc534fp00h/manifest
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
        windows: [{
-					"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"
+					"manifestId": "https://data.ng-london.org.uk/0FNR-0001-0000-0000.iiif"
 					}],
        manifests: {
+"https:\/\/data.ng-london.org.uk\/0FNR-0001-0000-0000.iiif":{"provider":"Undefined"},
 "https:\/\/manifests.collections.yale.edu\/ycba\/obj\/34":{"provider":"Undefined"},
 "https:\/\/iiif.harvardartmuseums.org\/manifests\/object\/299843":{"provider":"Undefined"},
 "https:\/\/media.nga.gov\/public\/manifests\/nga_highlights.json":{"provider":"Undefined"},
 "https:\/\/iiif.durham.ac.uk\/manifests\/trifle\/32150\/t1\/mc\/53\/t1mc534fp00h\/manifest":{"provider":"Undefined"},},
-       "catalog": [{"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"}, {"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843"}, {"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json"}, {"manifestId": "https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mc/53/t1mc534fp00h/manifest"}],
+       "catalog": [{"manifestId": "https://data.ng-london.org.uk/0FNR-0001-0000-0000.iiif"}, {"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"}, {"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843"}, {"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json"}, {"manifestId": "https://iiif.durham.ac.uk/manifests/trifle/32150/t1/mc/53/t1mc534fp00h/manifest"}],
        
        });     
      });
